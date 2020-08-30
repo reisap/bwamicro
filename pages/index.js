@@ -1,6 +1,5 @@
-import Head from 'next/head'
-
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,6 +12,9 @@ export default function Home() {
       <main>
         <div>
           <h1>Saya halaman utama</h1>
+          <Link href="/random">
+              <a>Bring me to random fetch page</a>
+          </Link>
         </div>
       </main>
 
